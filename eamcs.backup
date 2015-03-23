@@ -1,0 +1,9 @@
+(load "~/.emacs.d/init.el")
+(add-to-list 'load-path "~/.emacs.d/myconfig/modules")
+(add-to-list 'load-path "~/.emacs.d/myconfig/vendor")
+(require 'my-ruby)
+(global-linum-mode t)
+(show-paren-mode t)
+;;git-emacs
+(add-to-list 'load-path "~/.emacs.d/git-emacs/")
+(require 'git-emacs)
